@@ -1,0 +1,82 @@
+body
+{
+	width: 100%;
+	background-color: #FFF5D7;
+}
+.navb
+{
+	margin-left: 700px;
+}
+.parallax-container 
+{
+	height: 795px;
+}
+.categories
+{
+	font-family: 'Lobster', cursive;
+	font-size: 49px;
+	margin-top: -750px;
+	margin-left: 400px;
+}
+.categories p
+{
+	margin-top: -40px;
+	text-shadow: -2px -2px #E97EC4;
+}
+.categories p a
+{
+	display: block;
+	color: black;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+#vk
+{
+	transition: 0.5s;
+}
+#vk:hover
+{
+	background-color: #45668e;
+	border-radius: 100%;
+}
+#facebook
+{
+	transition: 0.5s;
+}
+#facebook:hover
+{
+	background-color: #3b5998;
+	border-radius: 100%;
+}
+#twitter
+{	
+	transition: 0.5s;
+}
+#twitter:hover
+{
+	background-color: #4099FF;
+	border-radius: 100%;
+}
+#instagram
+{	
+	transition: 0.5s;
+}
+#instagram:hover
+{
+	background-color: #8a3ab9;
+	border-radius: 100%;
+}
